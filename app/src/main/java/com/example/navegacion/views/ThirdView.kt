@@ -63,7 +63,7 @@ fun ContentThirdView(navController: NavController, id: Int, opcional: String?) {
         }else{
             TitleView(name = opcional.orEmpty())
         }
-        MainButton(name = "Home", backColor = Color.Magenta, color = Color.White) {
+        MainButton(name = "Home View", backColor = Color.Magenta, color = Color.White) {
             navController.navigate("Home")
         }
     }
